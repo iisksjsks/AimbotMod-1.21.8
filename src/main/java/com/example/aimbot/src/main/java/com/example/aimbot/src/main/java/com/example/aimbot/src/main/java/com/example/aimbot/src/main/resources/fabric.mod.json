@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "aimbotmod",
+  "version": "${version}",
+  "name": "Aimbot Mod",
+  "description": "Aimbot with friend list for Minecraft 1.21.8",
+  "authors": ["User"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/aimbotmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.aimbot.AimbotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
